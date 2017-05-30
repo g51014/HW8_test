@@ -409,6 +409,133 @@ footer
 }
 
 
+@media screen and (min-width:320px ) and (max-width:500px) {
+  body
+  {
+    background-color: black;
+    margin: auto;
+    width:320px;
+    height:1517px;
+  }
+    header
+    {
+      margin: 0px 0px;
+      background-image: url("image/small_main_img.png");
+      width: 320px;
+      height: 187px;
+      background-repeat: no-repeat;
+      background-position: center;
+      cursor:default;
+    }
+    .logo
+    {
+      margin:5px  0px 0px 135px;
+    }
+    .logo img
+    {
+      width: 45px;
+      height:45px;
+    }
+    .icon,.icon_right,.search,.search_div , .icon_account  /*設定排列方式*/
+    {
+      display: none;
+    }
+    .text_about
+    {
+      margin-top: 15px;
+      margin-left: -150px;
+      font-size: 24px;
+    }
+    .text_login
+    {
+      margin-top: 15px;
+      margin-left: 70px;
+      font-size: 24px;
+    }
+    article
+    {
+      margin: 0px 0px;
+      width: 320px;
+      height:1243px;
+    }
+    .img img , .img_code img
+    {
+      height: 225px;
+      width: 294px;
+      margin-left: 13px;
+      margin-right: 0px;
+    }
+    .img_column
+    {
+      margin-bottom: 0px;
+    }
+    .line img
+    {
+      width:320px;
+    }
+    .black_humor
+    {
+      background-image: url("");
+
+      width:320px;
+    }
+    .black_humor_context
+    {
+      text-align: justify;
+      width:294px;
+      margin:30px 15px 0px 0px;
+      font-size: 18px;
+    }
+    .black_humor_learnmore a
+    {
+
+      border-width: 1.5px;
+      font-size: 30px;
+      margin:70px 0px 0px 80px;
+      padding: 5px;
+      width:160px;
+      height: 30px;
+    }
+    .hell_humor
+    {
+      background-image: url("");
+      width:320px;
+    }
+    .hell_humor_context
+    {
+      float: right;
+      text-align: justify;
+      width:294px;
+      margin:30px 15px 0px 0px;
+      font-size: 18px;
+    }
+    .hell_humor_learnmore a
+    {
+      float: left;
+      border-width: 1.5px;
+      font-size: 30px;
+      margin:70px 0px 0px 80px;
+      padding: 5px;
+      width:160px;
+      height: 30px;
+    }
+    .icon_fb img , .icon_twitter img , .icon_instagram img
+    {
+      width: 32px;
+      height: 32px;
+    }
+    .icon_fb
+    {
+      margin-left: 0px;
+      margin-right: 44.8px;
+    }
+
+    .icon_instagram
+    {
+      margin-right: 44.8px;
+    }
+}
+
 @media screen and (max-width:320px ) {
   body
   {
