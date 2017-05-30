@@ -1,0 +1,664 @@
+body
+{
+  background-color: black;
+  margin: auto;
+  width:1280px;
+  height:1653px;
+}
+
+
+
+
+header
+{
+  color:white;
+  background-image: url("image/main_img.png");
+  margin-left: 46px;
+  margin-right: 46px;
+  width: 1189px;
+  height: 675px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor:default;
+}
+
+.text_about
+{
+    font-size: 60px;
+    font-family: "chiller",sans-serif;
+    margin-top:28px;
+    display: inline-block;
+    float:left;
+    margin-right: 25px;
+}
+
+.text_about a:link
+{
+  color:white;
+  text-decoration:none;
+}
+
+.text_about a:visited
+{
+  color:rgb(181, 173, 172);
+  text-decoration:none;
+}
+
+.text_about a:hover
+{
+  color:rgb(158, 19, 27);
+  position: relative;
+  top: 1px;
+  left: 1px;
+  text-decoration:none;
+}
+
+.text_login
+{
+    font-size: 60px;
+    font-family: "chiller",sans-serif;
+    margin-top:28px;
+    display: inline-block;
+    float:left;
+    margin-right: 25px;
+}
+
+.text_login a:link
+{
+  color:white;
+  text-decoration:none;
+}
+
+.text_login a:visited
+{
+  color:rgb(181, 173, 172);
+  text-decoration:none;
+}
+
+.text_login a:hover
+{
+  color:rgb(158, 19, 27);
+  position: relative;
+  top: 1px;
+  left: 1px;
+  text-decoration:none;
+}
+
+.logo
+{
+  float:left;
+  display: inline-block;
+  margin-right: 42px;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+
+.logo img
+{
+  width: 90px;
+  height:90px;
+}
+
+.icon,.icon_right,.search,.search_div , .icon_account  /*設定排列方式*/
+{
+  margin-top:37px;
+  display: inline-block;
+  float:left;
+}
+
+.search_div
+{
+  margin-top:43px;
+  margin-right: 52px;
+}
+
+.search_div img
+{
+  width:360px;
+  height: 40px;
+}
+
+.search
+{
+  margin-top:25px;
+  margin-right:0px;
+}
+
+.search img
+{
+  width:80px;
+  height: 80px;
+}
+
+.icon,.icon_account
+{
+  margin-left: 10px;
+  margin-right: 32px;
+}
+
+.icon_account:hover
+{
+  background-position:528,37;
+  background-image:url("icon/account_hover.png");
+  background-size: 48px,48px;
+}
+
+.icon_account img:hover
+{
+  opacity: 0;
+}
+
+.icon:hover
+{
+  background-position:576,37;
+  background-image:url("icon/favorite_hover.png");
+  background-size: 48px,48px;
+}
+
+.icon img:hover
+{
+  opacity: 0;
+}
+
+.icon img ,.icon_right img , .icon_account img
+{
+  width: 48px;
+  height:48px;
+}
+
+.icon_right
+{
+  margin-right: 0px;
+}
+
+.icon_right img:hover
+{
+  opacity: 0;
+}
+
+.icon_right:hover
+{
+  background-position:624,37;
+  background-image:url("icon/setup_hover.png");
+  background-size: 48px,48px;
+}
+
+article
+{
+  width:1189;
+  height:851px;
+  margin-left: 46px;
+  margin-right: 46px;
+}
+
+.img_column
+{
+  margin-bottom: 23px;
+}
+
+.img
+{
+  color: white;
+  display:inline-block;
+  margin-right: 32px;
+}
+
+.img_code
+{
+  color: white;
+  display:inline-block;
+  margin-right: 0;
+}
+
+.img:hover,.img_code:hover
+{
+  transform: scale(1.1,1.1);
+}
+
+.line img
+{
+  width:1189px;
+}
+
+.black_humor , .hell_humor
+{
+  color:white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 1189px;
+  height:250px;
+  background-repeat: no-repeat;
+}
+
+.black_humor
+{
+  background-position: left center;
+}
+
+.black_humor_context
+{
+  margin-right: 20px;
+  margin-top: 27px;
+  font-family: "標楷體";
+  font-size: 23px;
+  text-align: center;
+  width:448px;
+  height:78px;
+  display: inline-block;
+  float:right;
+}
+
+.black_humor_learnmore a
+{
+  border-style: solid;
+  border-width: 1;
+  border-color: white;
+  padding:10px;
+  margin-left: 1000px;
+  margin-top: 65px;
+  text-align: center;
+  width:134px;
+  height:33px;
+  float:left;
+  font-family: "chiller" ,sans-serif;
+  font-size: 33px;
+}
+
+
+.black_humor_learnmore a:link
+{
+  color: white;
+  text-decoration:none;
+}
+
+.black_humor_learnmore a:visited
+{
+  color: white;
+  text-decoration:none;
+}
+
+.black_humor_learnmore a:hover
+{
+  border-color: rgb(158, 19, 27);
+  color:rgb(158, 19, 27);
+  position: relative;
+  top: 1px;
+  left: 1px;
+  text-decoration:none;
+}
+
+
+
+.hell_humor
+{
+  background-position: right center;
+}
+
+.hell_humor_context
+{
+  margin-top: 27px;
+  margin-left: 10px;
+  font-family: "標楷體";
+  font-size: 23px;
+  text-align: center;
+  width:448px;
+  height:78px;
+  display: inline-block;
+  float:left;
+}
+
+.hell_humor_learnmore a
+{
+  border-style: solid;
+  border-width: 1;
+  border-color: white;
+  padding:10px;
+  margin-right: 1000px;
+  margin-top: 63px;
+  text-align: center;
+  width:134px;
+  height:33px;
+  float:right;
+  font-family: "chiller" ,sans-serif;
+  font-size: 33px;
+}
+
+
+.hell_humor_learnmore a:link
+{
+  color: white;
+  text-decoration:none;
+}
+
+.hell_humor_learnmore a:visited
+{
+  color: white;
+  text-decoration:none;
+}
+
+.hell_humor_learnmore a:hover
+{
+  border-color: rgb(158, 19, 27);
+  color:rgb(158, 19, 27);
+  position: relative;
+  top: 1px;
+  left: 1px;
+  text-decoration:none;
+}
+
+.black_humor img , .hell_humor img
+{
+  width:1153px;
+}
+
+.black_humor
+{
+  background-image: url("image/clown5.png");
+
+}
+
+.hell_humor
+{
+  background-image: url("image/clown6.png");
+}
+
+footer
+{
+  width: 100%;
+  height:87px;
+  background-color: rgba(122, 121, 121, 0.6);
+  text-align: center;
+  color:white;
+}
+
+.icon_fb , .icon_twitter , .icon_instagram
+{
+  margin-top: 20px;
+  display: inline-block;
+
+}
+
+.icon_fb img , .icon_twitter img , .icon_instagram img
+{
+  width: 48px;
+  height: 48px;
+}
+
+.icon_fb img:hover , .icon_twitter img:hover , .icon_instagram img:hover
+{
+  position: relative;
+  top: 1px;
+  left: 1px;
+}
+
+
+.icon_fb
+{
+  margin-left: 1050px;
+  margin-right: 32px;
+}
+
+.icon_instagram
+{
+  margin-right: 32px;
+}
+
+.icon_twitter
+{
+
+}
+
+
+@media screen and (min-width:320px ) and (max-width:500px) {
+  body
+  {
+    background-color: black;
+    margin: auto;
+    width:320px;
+    height:1517px;
+  }
+    header
+    {
+      margin: 0px 0px;
+      background-image: url("image/small_main_img.png");
+      width: 320px;
+      height: 187px;
+      background-repeat: no-repeat;
+      background-position: center;
+      cursor:default;
+    }
+    .logo
+    {
+      margin:5px  0px 0px 135px;
+    }
+    .logo img
+    {
+      width: 45px;
+      height:45px;
+    }
+    .icon,.icon_right,.search,.search_div , .icon_account  /*設定排列方式*/
+    {
+      display: none;
+    }
+    .text_about
+    {
+      margin-top: 15px;
+      margin-left: -150px;
+      font-size: 24px;
+    }
+    .text_login
+    {
+      margin-top: 15px;
+      margin-left: 70px;
+      font-size: 24px;
+    }
+    article
+    {
+      margin: 0px 0px;
+      width: 320px;
+      height:1243px;
+    }
+    .img img , .img_code img
+    {
+      height: 225px;
+      width: 294px;
+      margin-left: 13px;
+      margin-right: 0px;
+    }
+    .img_column
+    {
+      margin-bottom: 0px;
+    }
+    .line img
+    {
+      width:320px;
+    }
+    .black_humor
+    {
+      background-image: url("");
+
+      width:320px;
+    }
+    .black_humor_context
+    {
+      text-align: justify;
+      width:294px;
+      margin:30px 15px 0px 0px;
+      font-size: 18px;
+    }
+    .black_humor_learnmore a
+    {
+
+      border-width: 1.5px;
+      font-size: 30px;
+      margin:70px 0px 0px 80px;
+      padding: 5px;
+      width:160px;
+      height: 30px;
+    }
+    .hell_humor
+    {
+      background-image: url("");
+      width:320px;
+    }
+    .hell_humor_context
+    {
+      float: right;
+      text-align: justify;
+      width:294px;
+      margin:30px 15px 0px 0px;
+      font-size: 18px;
+    }
+    .hell_humor_learnmore a
+    {
+      float: left;
+      border-width: 1.5px;
+      font-size: 30px;
+      margin:70px 0px 0px 80px;
+      padding: 5px;
+      width:160px;
+      height: 30px;
+    }
+    .icon_fb img , .icon_twitter img , .icon_instagram img
+    {
+      width: 32px;
+      height: 32px;
+    }
+    .icon_fb
+    {
+      margin-left: 0px;
+      margin-right: 44.8px;
+    }
+
+    .icon_instagram
+    {
+      margin-right: 44.8px;
+    }
+}
+
+@media screen and (max-width:320px ) {
+  body
+  {
+    background-color: black;
+    margin: auto;
+    width:320px;
+    height:1517px;
+  }
+    header
+    {
+      margin: 0px 0px;
+      background-image: url("image/small_main_img.png");
+      width: 320px;
+      height: 187px;
+      background-repeat: no-repeat;
+      background-position: center;
+      cursor:default;
+    }
+    .logo
+    {
+      margin:5px  0px 0px 135px;
+    }
+    .logo img
+    {
+      width: 45px;
+      height:45px;
+    }
+    .icon,.icon_right,.search,.search_div , .icon_account  /*設定排列方式*/
+    {
+      display: none;
+    }
+    .text_about
+    {
+      margin-top: 15px;
+      margin-left: -150px;
+      font-size: 24px;
+    }
+    .text_login
+    {
+      margin-top: 15px;
+      margin-left: 70px;
+      font-size: 24px;
+    }
+    article
+    {
+      margin: 0px 0px;
+      width: 320px;
+      height:1243px;
+    }
+    .img img , .img_code img
+    {
+      height: 225px;
+      width: 294px;
+      margin-left: 13px;
+      margin-right: 0px;
+    }
+    .img_column
+    {
+      margin-bottom: 0px;
+    }
+    .line img
+    {
+      width:320px;
+    }
+    .black_humor
+    {
+      background-image: url("");
+
+      width:320px;
+    }
+    .black_humor_context
+    {
+      text-align: justify;
+      width:294px;
+      margin:30px 15px 0px 0px;
+      font-size: 18px;
+    }
+    .black_humor_learnmore a
+    {
+
+      border-width: 1.5px;
+      font-size: 30px;
+      margin:70px 0px 0px 80px;
+      padding: 5px;
+      width:160px;
+      height: 30px;
+    }
+    .hell_humor
+    {
+      background-image: url("");
+      width:320px;
+    }
+    .hell_humor_context
+    {
+      float: right;
+      text-align: justify;
+      width:294px;
+      margin:30px 15px 0px 0px;
+      font-size: 18px;
+    }
+    .hell_humor_learnmore a
+    {
+      float: left;
+      border-width: 1.5px;
+      font-size: 30px;
+      margin:70px 0px 0px 80px;
+      padding: 5px;
+      width:160px;
+      height: 30px;
+    }
+    .icon_fb img , .icon_twitter img , .icon_instagram img
+    {
+      width: 32px;
+      height: 32px;
+    }
+    .icon_fb
+    {
+      margin-left: 0px;
+      margin-right: 44.8px;
+    }
+
+    .icon_instagram
+    {
+      margin-right: 44.8px;
+    }
+}
